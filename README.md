@@ -1,4 +1,4 @@
-# TRAD_FR : pages de manuel traduites en français
+# TRAD_MAN_FR : pages de manuel traduites en français
 
 Ce dépôt rassemble des traductions françaises de pages de manuel (`man`) de logiciels libres, principalement pour Debian.
 
@@ -91,13 +91,13 @@ Les contributions sont les bienvenues : nouvelles traductions, corrections, mise
 
 ### Avant de commencer
 
-- Vérifier dans les *issues* et les *pull requests* ouvertes que la page n'est pas déjà en cours de traduction.
-- Pour une nouvelle page, ouvrir au préalable une *issue* « Traduction de `xxx.N` » afin d'éviter les doublons.
+- Vérifier dans les _issues_ et les _pull requests_ ouvertes que la page n'est pas déjà en cours de traduction.
+- Pour une nouvelle page, ouvrir au préalable une _issue_ « Traduction de `xxx.N` » afin d'éviter les doublons.
 - Vérifier la licence de la page d'origine (en-tête du fichier, `/usr/share/doc/<paquet>/copyright`) : elle doit permettre la redistribution des traductions.
 
 ### Procédure
 
-1. **Forker** le dépôt (bouton *Fork* sur GitHub), puis cloner **son propre fork** :
+1. **Forker** le dépôt (bouton _Fork_ sur GitHub), puis cloner **son propre fork** :
    ```zsh
    git clone git@github.com:<votre-compte>/TRAD_FR.git
    cd TRAD_FR
@@ -123,19 +123,19 @@ Les contributions sont les bienvenues : nouvelles traductions, corrections, mise
    ```zsh
    git push -u origin trad-logiciel
    ```
-7. **Ouvrir une *pull request*** vers la branche `main` du dépôt principal, en décrivant la page traduite et la version d'origine.
+7. **Ouvrir une _pull request_** vers la branche `main` du dépôt principal, en décrivant la page traduite et la version d'origine.
 
 ### Règles/Conventions
 
 - Un répertoire par logiciel et nom de fichier identique à l'original (`fichier.SECTION.gz`).
 - Conserver les mentions de copyright et de licence d'origine.
-- Une *pull request* par logiciel ou par page, pour faciliter la relecture.
+- Une _pull request_ par logiciel ou par page, pour faciliter la relecture.
 - Ne pas modifier les macros `roff` : seul le texte est traduit.
 - Aucun fichier binaire autre que les `.gz` attendus.
 
 ### Relecture
 
-Toute contribution est relue avant d'être fusionnée. Des retours ou des demandes de modification peuvent être formulés dans la *pull request*.
+Toute contribution est relue avant d'être fusionnée. Des retours ou des demandes de modification peuvent être formulés dans la _pull request_.
 
 ## Limites
 
