@@ -19,6 +19,8 @@ L'évolution de dépot dépendra de mes besoins en traduction et des éventuelle
 
 Un dossier par logiciel/application, contenant les pages traduites et **compressées** (`.gz`), prêtes à être installées. Le chiffre avant `.gz` est la section du manuel (`1` = commandes, `5` = formats de fichiers, etc.).
 
+Un répertoire nommé `Les_README` contient diverses traductions de fichiers `README.md` de logiciels/applications. Ils peuvent être une lecture complémentaire ou introductive aux diverses pages de manuels.
+
 ## Installer les traductions
 
 ### Une page
